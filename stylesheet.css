@@ -1,0 +1,182 @@
+p{
+   width: 500px;
+   height: 100px;
+   color: blueviolet; 
+   border: 2px solid rgb(139, 28, 0);
+   font-style: normal;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif
+ }
+
+ ul{
+    list-style-type: disc; 
+ }
+
+ div >ol{
+     list-style-type: lower-alpha;
+ }
+
+ span >ol{
+    list-style-type: lower-roman;
+}
+
+table th,tr,td{
+    border: 2px solid brown;
+    background-color: burlywood
+}
+table{
+    
+    border-collapse: collapse;
+}
+
+.div_inline{
+    display: inline;
+    border: 3px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 20px 15px 20px 15px;
+    padding: 15px 25px 15px 25px;
+}
+
+
+.span_block{
+    display: block;
+    border: 3px solid blueviolet;
+    width: 200px;
+    height: 100px;
+    margin: 20px 15px 20px 15px;
+    padding: 15px 25px 15px 25px;
+}
+
+.divs_inline{
+    display: inline;
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid greenyellow;
+    margin: 5px;
+}
+
+.div_none{
+    display: none;
+}
+
+.divs_float{
+    float: left;
+    font-style: normal;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid red;
+    margin: 10px 5px;
+}
+
+.div_overfloaw{
+    margin: 10px 5px;
+    border: 3px solid black;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.div_relative{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    position: relative;
+    top:50px;
+    left: 50px;
+}
+
+.div_relative1{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px 10px;
+ 
+}
+
+.div_absolute{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+
+.div_absolute1{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    
+}
+
+.body_class{
+    height: 1500px;
+}
+
+.fixed_header{
+    width: 1300px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    position: fixed;
+    text-align: center;
+}
+
+#divspan1_float_id{
+    float: left;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px 10px;
+}
+
+#divspan2_float_id{
+    float: right;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px 10px;
+}
+
+#span_float1{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.selector_div span{
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px 10px 10px 10px ;
+}
+
+.selector_div_2 >span{
+    display: block;
+    border: 2px solid black;
+    text-align: center;
+    color: blueviolet;
+    margin: 10px 10px 10px 10px;
+}
+
+.selector_div_2 +span{
+    display: block;
+    border: 2px solid black;
+    text-align: left;
+    color:red;
+    margin: 10px 10px 10px 10px;
+}
+
+.selector_div_3 ~ span{
+    display: block;
+    border: 2px solid red;
+    text-align: left;
+    color: green;
+}
