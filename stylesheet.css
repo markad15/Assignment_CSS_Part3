@@ -5,7 +5,9 @@ p{
    border: 2px solid rgb(139, 28, 0);
    font-style: normal;
    font-size: 20px;
-   font-family: 'Times New Roman', Times, serif
+   /* font-family: 'Times New Roman', Times, serif; */
+
+   font-family: 'Courgette', cursive;
  }
 
  ul{
